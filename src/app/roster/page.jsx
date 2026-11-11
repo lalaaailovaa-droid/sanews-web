@@ -216,7 +216,7 @@ export default function RosterPage() {
               <form onSubmit={handleLoginHC} className="space-y-4">
                 <input
                   type="password"
-                  maxLength={6}
+                  maxLength={10}
                   value={pinInput}
                   onChange={(e) => setPinInput(e.target.value)}
                   placeholder="Masukkan PIN HC..."
